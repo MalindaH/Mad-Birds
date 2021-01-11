@@ -941,12 +941,6 @@ MonoBehaviour:
   levels:
   - {fileID: 1113424686}
   choke: 0
---- !u!95 &679081034 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 274223807496125858, guid: 11b894cc6a16f97408e05ea3d99970f6,
-    type: 3}
-  m_PrefabInstance: {fileID: 274223807806584473}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &686541208
 GameObject:
   m_ObjectHideFlags: 3
@@ -1230,6 +1224,12 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 30.719997, y: 2.050583}
   m_EdgeRadius: 0
+--- !u!95 &1205560064 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 274223807950576405, guid: 11b894cc6a16f97408e05ea3d99970f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 274223807806584473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1239638754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,7 +1984,7 @@ PrefabInstance:
         type: 3}
       propertyPath: transition
       value: 
-      objectReference: {fileID: 679081034}
+      objectReference: {fileID: 1205560064}
     - target: {fileID: 833275669792772221, guid: 11b894cc6a16f97408e05ea3d99970f6,
         type: 3}
       propertyPath: m_Interactable
